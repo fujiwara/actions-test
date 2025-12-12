@@ -1,0 +1,6 @@
+runs:
+  using: "composite"
+  steps:
+    - shell: bash
+      run: |
+        echo "Hello ${{ github.repository }} on ${{ github.server_url }}"
