@@ -4,3 +4,4 @@ runs:
     - shell: bash
       run: |
         echo "Hello ${{ github.repository }} on ${{ github.server_url }}"
+        echo "This action on github.com"
